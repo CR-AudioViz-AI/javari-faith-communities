@@ -1,12 +1,15 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = { reactStrictMode: true }
-// replaced — see _nextConfigFinal below
-// Auto-fix: bypass build errors for deployment
-const _nextConfigFinal = {
-  ...nextConfig,
+const nextConfig = {
+  reactStrictMode: true,
   typescript: { ignoreBuildErrors: true },
-  output: 'standalone',
   eslint: { ignoreDuringBuilds: true },
+  images: {
+    remotePatterns: [
+      { protocol: 'https', hostname: '*.supabase.co' },
+      { protocol: 'https', hostname: 'images.unsplash.com' },
+      { protocol: 'https', hostname: '*.cloudflare.com' },
+    ],
+  },
 };
 
-module.exports = _nextConfigFinal;
+module.exports = nextConfig;
