@@ -97,7 +97,7 @@ export default function FaithCommunitiesPage() {
               <a href="#testimonials" className="text-gray-300 hover:text-white transition">Stories</a>
               <a href="#pricing" className="text-gray-300 hover:text-white transition">Pricing</a>
               <a 
-                href="/signup"
+                href="https://craudiovizai.com/signup"
                 className="px-4 py-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-medium rounded-lg hover:opacity-90 transition"
               >
                 Get Started Free
@@ -118,7 +118,7 @@ export default function FaithCommunitiesPage() {
             <a href="#features" className="block text-gray-300 py-2">Features</a>
             <a href="#testimonials" className="block text-gray-300 py-2">Stories</a>
             <a href="#pricing" className="block text-gray-300 py-2">Pricing</a>
-            <a href="/signup" className="block w-full text-center py-3 bg-purple-600 text-white rounded-lg">
+            <a href="https://craudiovizai.com/signup" className="block w-full text-center py-3 bg-purple-600 text-white rounded-lg">
               Get Started Free
             </a>
           </div>
@@ -172,7 +172,7 @@ export default function FaithCommunitiesPage() {
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16"
           >
             <a
-              href="/signup"
+              href="https://craudiovizai.com/signup"
               className="group px-8 py-4 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-semibold rounded-xl hover:opacity-90 transition flex items-center gap-2"
             >
               Start Free Today
@@ -281,7 +281,7 @@ export default function FaithCommunitiesPage() {
                   </li>
                 ))}
               </ul>
-              <a href="/signup" className="block w-full py-3 text-center bg-white/10 text-white rounded-lg hover:bg-white/20 transition">
+              <a href="https://craudiovizai.com/signup" className="block w-full py-3 text-center bg-white/10 text-white rounded-lg hover:bg-white/20 transition">
                 Get Started Free
               </a>
             </div>
@@ -302,7 +302,7 @@ export default function FaithCommunitiesPage() {
                   </li>
                 ))}
               </ul>
-              <a href="/signup" className="block w-full py-3 text-center bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition">
+              <a href="https://craudiovizai.com/signup" className="block w-full py-3 text-center bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition">
                 Start Free Trial
               </a>
             </div>
@@ -320,7 +320,7 @@ export default function FaithCommunitiesPage() {
             Join thousands of congregations using technology to serve better.
           </p>
           <a
-            href="/signup"
+            href="https://craudiovizai.com/signup"
             className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-semibold rounded-xl hover:opacity-90 transition"
           >
             Start Free Today
